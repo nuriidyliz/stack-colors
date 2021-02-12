@@ -8,6 +8,7 @@ public class Kick : MonoBehaviour
 
 	public PowerCalculator powerCalculator;
 	public float kickCoefficient = 3;
+
     void Start()
     {
 		rb = GetComponent<Rigidbody>();
